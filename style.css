@@ -1,0 +1,285 @@
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+.section-padding{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*NAVBAR*/
+.navbar{
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: grey;
+    transition: 0.5s ease-in;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color: rgba(230, 35, 230, 0.637);
+}
+
+.navbar-nav .nav-item .nav-link.active{
+    color: #E93B81;
+}
+
+/*HERO*/
+#hero{
+    background: linear-gradient(rgba(17, 36, 90, 0.541), rgba(17, 36, 90, 0.541)), url(./images/hero_img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero h2{
+    max-width: 800px;
+}
+
+#hero small{
+    max-width: 550px;
+}
+
+.btn{
+    border-radius: none;
+}
+
+.btn-brand{
+    background-color: rgb(175, 90, 105);
+    border-radius: none;
+}
+
+.btn-brand:hover{
+    background-color:rgba(230, 35, 230, 0.637); ;
+}
+
+/*SERVICES*/
+.line{
+    width: 100px;
+    height: 4px;
+    background-color: grey;
+}
+
+.service-icon{
+    background-color: rgba(230, 35, 230, 0.637);
+    width: 60px;
+    height: 60px;
+}
+
+.service-icon i{
+    font-size: 40px;
+}
+
+/*PORTFOLIO*/
+#portfolio{
+    position: relative;
+    overflow: hidden;
+} 
+
+.portfolio-box{
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-box:hover img{
+    transform: scale(1.1);
+    transition: 0.5s ease-in;
+}
+
+.portfolio-text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    background-color: rgba(60, 60, 148, 0.8);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    opacity: 0;
+}
+
+.portfolio-box:hover .portfolio-text{
+    opacity: 1;
+    transition: 0.5s ease-in;
+} 
+
+/*FEATURES*/
+.feature-icon{
+    background-color: rgba(230, 35, 230, 0.637);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    flex: none;
+}
+
+.feature-word p{
+    color: gray;
+}
+
+/*TEAM*/
+#team{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-profile{
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.team-profile-image{
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.team-profile:hover .team-profile-image{
+    transform: translateY(-57px);
+    transition: 0.5s ease;
+}
+
+.box{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-profile-icons{
+    background-color:rgba(230, 35, 230);
+    width: 100%;
+    transition: 0.5s ease;
+    position: absolute;
+    bottom: -57px;
+    padding: 10px 0;
+}
+
+.team-profile:hover .team-profile-icons{
+    transition: 0.5s ease;
+    bottom: 0;
+}
+
+.team-profile-icons i{
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 25px;
+    color: white;
+    margin: 0 3px;
+    padding: 7px;
+    height: 40px;
+    width: 40px;
+}
+
+.team-profile-words{
+    background-color: rgba(54, 54, 153, 0.815);
+}
+
+.team-profile-icons i:hover{
+    background-color: white;
+    color: rgba(230, 35, 230);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.dark-blue{
+    background-color: rgb(50, 50, 243);
+}
+
+/*TESTIMONIAL*/
+.review p{
+    max-width: 720px;
+    font-style: italic;
+    color: gray;
+}
+
+.review small{
+    color: gray;
+}
+
+.review .stars i{
+    color: rgba(230, 35, 230);
+}
+
+#testimonial img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.nav-pills .nav-link.active{
+    background-color: transparent;
+}
+
+.nav-pills .nav-link.active img{
+   transform: scale(1.3);
+   transition: 0.5s ease;
+}
+
+/*SPONSORS*/
+#sponsors img{
+    height: 35px;
+}
+
+/*CONTACT*/
+form .form-control{
+    border-radius: 0;
+}
+
+form .form-control:focus{
+    box-shadow: none;
+    border-color:rgba(230, 35, 230);
+}
+
+/*SPACE*/
+#space{
+    background-color:rgba(230, 35, 230) ;
+
+}
+
+/*FOOTER*/
+.footer a{
+    text-decoration: none;
+}
+
+.footer-top {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+ 
+.footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+ 
+footer .social-icons a{
+    color: #898fa1;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+ 
+footer .footer-links a {
+    display: block;
+    font-weight: 400;
+    color: #898fa1;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+ 
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+    color: #E93B81;
+    transition: 0.5s ease;
+} 
